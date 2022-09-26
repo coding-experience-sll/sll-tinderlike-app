@@ -1,0 +1,41 @@
+{
+  "name": "sll-tinderlike-app",
+  "version": "1.0.0",
+  "description": "A generic tinder-like app built with NodeJS + Express + MongoDB",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sll-coding-experience/sll-tinderlike-app"
+  },
+  "scripts": {
+    "start": "node ./server.js",
+    "start:dev": "nodemon ./server.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1125.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "date-fns": "^2.28.0",
+    "dotenv": "^16.0.1",
+    "email-validator": "^2.0.4",
+    "expo-server-sdk": "^3.6.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "fs-extra": "^10.0.1",
+    "imgur": "^1.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.21",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "node-pushnotifications": "^2.0.3",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15",
+    "password-validator": "^5.2.1",
+    "rootpath": "^0.1.2",
+    "socket.io": "^4.4.1",
+    "twilio": "^3.77.3",
+    "validate-date": "^2.0.0"
+  }
+}
